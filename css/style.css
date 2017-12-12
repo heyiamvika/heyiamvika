@@ -1310,6 +1310,7 @@ img {
   border: 0;
   border-radius: 50%;
   cursor: pointer;
+  z-index: 2;
 }
 
 .button-close:before, .button-close:after {
@@ -1462,6 +1463,7 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .modal-map img {
@@ -1498,7 +1500,7 @@ img {
   }
 }
 
-@@keyframes popup-shake {
+@keyframes popup-shake {
   0% {
     transform: translateX(-50%);
   }
